@@ -1,0 +1,10 @@
+/* Hide spinner for input of type number */
+.reactCodeInput input::-webkit-inner-spin-button,
+.reactCodeInput input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.reactCodeInput input {
+  -moz-appearance: textfield; /* For Firefox */
+}
